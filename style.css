@@ -1,0 +1,128 @@
+.title{
+    
+    font-size: 60px;
+    font-family: 'Croissant One', cursive;
+}
+body:before{
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+    background-color: #010101;
+    z-index: -1;
+}
+body{
+    background-image: url("./img/hands-4348717_1920.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    /* width: 100%;
+    height: 100vh; */
+    z-index: 1;
+    background-attachment: fixed;
+     color: white;
+}
+.navbar{
+   background-color: #1d9bf0;
+   padding-top:0rem!important;
+   padding-bottom: 0rem!important;
+}
+.banner{
+    font-family: 'Croissant One', cursive;
+}
+
+.banner-img img{
+    border:4px solid red;
+    border-radius: 15px;
+    box-shadow: 10px 4px 8px 0 rgba(18, 147, 202, 0.2), 0 6px 20px 0 rgba(7, 159, 235, 0.19);
+}
+.description{
+    font-size: 22px;
+}
+.card{
+    background:#343333;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.card-text{
+    font-size: 22px;
+    
+}
+.card-title{
+    font-size: 24px;
+}
+.card-body:hover{
+    background-image: linear-gradient(90deg,#f61b10,#ef0963);
+    border-radius: 10px;
+}
+li{
+    list-style: disc;
+    padding:5px 0px;
+}
+.tokent-txt{
+    font-size: 25px;
+    font-family: 'Croissant One', cursive;
+    background:#343333;
+    padding: 10px 30px;
+}
+.tokent-txt h1{
+    color: rgb(245, 32, 32);
+}
+.buy button{
+    border:3px solid rgb(245, 32, 32);
+   
+}
+/* button {
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 15px;
+    border-right: none;
+}
+button{
+    position: relative;
+    z-index: 4;
+}
+button::after{
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background-color: black;
+    z-index: 3;
+    transition: 1s;
+   
+    
+ }
+ button:hover::after{
+     width: 100%;
+     z-index: -1;
+ } */
+
+/* .ft-text{
+    width: 30%;
+    margin: 0 auto;
+
+} */
+.ft-text i{
+    font-size: 34px;
+    margin-left:12px ;
+    color: white;
+}
+.ft-text i:hover{
+    border:3px solid rgb(245, 32, 32);
+    border-radius: 25px;
+    transition: 0.3s;
+}
