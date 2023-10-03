@@ -14,6 +14,7 @@ body:before{
     opacity: 0.6;
     background-color: #010101;
     z-index: -1;
+    overflow: auto;
 }
 body{
     background-image: url("./img/hands-4348717_1920.jpg");
@@ -24,7 +25,9 @@ body{
     height: 100vh; */
     z-index: 1;
     background-attachment: fixed;
-     color: white;
+    color: white;
+    overflow-x: hidden;
+  
 }
 .navbar{
    background-color: #1d9bf0;
@@ -39,6 +42,7 @@ body{
     border:4px solid red;
     border-radius: 15px;
     box-shadow: 10px 4px 8px 0 rgba(18, 147, 202, 0.2), 0 6px 20px 0 rgba(7, 159, 235, 0.19);
+    
 }
 .description{
     font-size: 22px;
