@@ -16,6 +16,9 @@ body:before{
     z-index: -1;
     overflow: auto;
 }
+img{
+    max-width: 100%;
+}
 body{
     /* background-image: url("./img/hands-4348717_1920.jpg"); */
     background-image: url("./img/msg1309984826-3506.jpg");
